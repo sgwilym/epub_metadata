@@ -36,7 +36,7 @@ type ParsedOpf = {
   };
 };
 
-type EpubMetadata = {
+export type EpubMetadata = {
   title: string;
   creators: string[] | undefined;
   language: string;
